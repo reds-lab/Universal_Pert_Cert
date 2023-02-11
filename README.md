@@ -1,6 +1,9 @@
 # Towards Robustness Certification Against Universal Perturbations
+![Python 3.9](https://img.shields.io/badge/python-3.9-DodgerBlue.svg?style=plastic)
+![Pytorch 1.8.1](https://img.shields.io/badge/pytorch-1.8.1-DodgerBlue.svg?style=plastic)
+![CUDA 10.2](https://img.shields.io/badge/cuda-10.2-DodgerBlue.svg?style=plastic)
 
-This repository is the official implementation of the ICLR'23 paper with the same title. Our goal is to provide the first practical attempt for researchers and practitioners to evaluate the robustness of their models against universal perturbations, especially to universal adversarial perturbations (UAPs) and $l_{\infty}$-norm-bounded backdoors.
+This repository is the official implementation of the ICLR'23 paper "[Towards Robustness Certification Against Universal Perturbations](https://openreview.net/forum?id=7GEvPKxjtt)". Our goal is to provide the first practical attempt for researchers and practitioners to evaluate the robustness of their models against universal perturbations, especially to universal adversarial perturbations (UAPs) and $l_{\infty}$-norm-bounded backdoors.
 
 ## Overview
 The code in this repository implements linear bounds calculated using the existing method, [auto_LiRPA](https://github.com/Verified-Intelligence/auto_LiRPA), to extend linear bounds and compute the certified UP robustness for a batch of data given a trained model. The calculation of certified robustness can help identify potential weaknesses in the models and inform steps to improve their robustness.
@@ -22,3 +25,7 @@ The code in this repository implements linear bounds calculated using the existi
 
 ## Conclusion
 We hope that this repository will serve as a valuable resource for the robustness certification community. By providing a tool to calculate the certified UP robustness, we aim to promote the development of more secure and robust machine learning models.
+
+
+# Special thanks to...
+[![Stargazers repo roster for @ruoxi-jia-group/Universal_Pert_Cert](https://reporoster.com/stars/ruoxi-jia-group/Universal_Pert_Cert)](https://github.com/ruoxi-jia-group/Universal_Pert_Cert/stargazers)
