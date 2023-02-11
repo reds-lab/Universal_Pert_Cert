@@ -17,7 +17,7 @@ The code in this repository implements linear bounds calculated using the existi
 + PyTorch >= 1.8.1+cu102
 + TorchVisison >= 0.9.1+cu102
 + Gurobipy >= 9.5.1
-+ auto_LiRPA
++ [auto_LiRPA](https://github.com/Verified-Intelligence/auto_LiRPA)
 
 ## Usage
 1. Download the example model weights and extract the `./model_weights` into the same folder as the code. 
