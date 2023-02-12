@@ -15,7 +15,7 @@ The code in this repository implements linear bounds calculated using the existi
 ## Requirements
 + Python >= 3.9.6
 + PyTorch >= 1.8.1+cu102
-+ TorchVisison >= 0.9.1+cu102
++ TorchVision >= 0.9.1+cu102
 + Gurobipy >= 9.5.1
 + [auto_LiRPA](https://github.com/Verified-Intelligence/auto_LiRPA)
 
